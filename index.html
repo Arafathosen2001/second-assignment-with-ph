@@ -3,11 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="bg-[#1A0B2E]">
+        <div class="container">
+            <nav class=" flex justify-between items-center py-5 text-white">
+                <div class="logo">
+                    <h2 class="text-3xl font-extrabold">Tech<span class="bg-gradient-to-bl from-[#9100F8] via-[#FB09B4] to-[#F7E93F] bg-clip-text text-transparent">Wave</span></h2>
+                </div>
+                <div class="menu">
+                    <ul class="flex gap-4">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Episodes</a></li>
+                        <li><a href="#">Hots</a></li>
+                    </ul>
+                </div>
+                <div class="btn-submit">
+                    <button class="bg-gradient-to-bl from-[#9100F8] from-10% via-[#FB09B4] via-40% to-[#F7E93F] to-90% px-4 py-3 rounded-3xl">Subscribe <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="benner" class="py-28">
+        <div class="container">
+            <div class="main-benner mx-auto flex items-center flex-col">
+                <div class="content mx-auto relative">
+                    <img class="" src="./assets/hero-circle.png" alt="">
+                    <img class="absolute top-20 left-29" src="./assets/microphone.png" alt="">
+                </div>
+                <div class="banner-text text-center">
+                    <h2 class="font-extrabold text-6xl mt-18 text-white">TechWave</h2>
+                    <p class="text-white my-4">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                    <div class="benar-btn">
+                        <button class="bg-gradient-to-bl from-[#9100F8] from-20% via-[#FB09B4] via-50% to-[#F7E93F] to-90% px-4 py-3 rounded-3xl text-white"><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
+                        <button class="px-4 py-3 rounded-3xl border-[#00FF88] border-2 text-[#00FF88]"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

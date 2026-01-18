@@ -1,0 +1,22 @@
+body{
+    font-family:"Inter";
+}
+.container{
+    width: 75%;
+    max-width: 1200;
+    margin: 0 auto;
+}
+.section-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    
+}
+#benner{
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
