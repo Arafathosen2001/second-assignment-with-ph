@@ -23,3 +23,10 @@ body p{
     background-position: center;
     
 }
+
+footer{
+    background-image: url(./assets/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
