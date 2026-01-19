@@ -1,0 +1,88 @@
+/* nav */
+@media screen and (max-width:576px) {
+    body>section{
+        padding: 50px 0;
+    }
+    .container{
+        width: 85%;
+    }
+    .section-heading h2 {
+	font-size: 35px;
+    }
+    .menu,
+    .btn-submit{
+        display: none;
+    }
+    
+    .mobile-menu{
+        display: block;
+    }
+/* banner */
+    #benner, footer{
+        background-size: 150% 100%;
+        padding: 40px 0;
+    }
+    .content{
+        width: 200px;
+        height: 150px;
+    }
+    .mick{
+        width: 80px;
+        top: 25%;
+        left: 30%;
+    }
+    .new{
+        top: 0;
+        right: 10px;
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+/* about */
+    .leading-8 {
+	line-height:22px;
+    }
+    .br{display: none;}
+    .product{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+    }
+    .product-card h2{
+        font-size: 40px;
+    }
+
+/* choose */
+    .choose-card{
+        display: flex;
+        flex-direction: column;
+    }
+    /* fecture */
+    .Featured-card{
+        flex-direction: column;
+    }
+/* host */
+    .host-card{
+        flex-direction: column;
+    }
+    .host-img{
+        width: auto;
+        height: auto;
+
+    }
+    .host-content{
+        text-align: center;
+    }
+    .s-link{
+	justify-content: center;
+    }
+
+    /* footer */
+    .menu-f ul{
+        flex-wrap: wrap;
+        max-width: 255px;
+        margin: auto;
+    }
+    .f-content h2{
+        font-size: 48px;
+    }
+}
