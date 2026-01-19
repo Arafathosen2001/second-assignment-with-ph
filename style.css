@@ -1,6 +1,9 @@
 body{
     font-family:"Inter";
 }
+body p{
+    color: rgb(172, 171, 171);
+}
 .container{
     width: 75%;
     max-width: 1200;
