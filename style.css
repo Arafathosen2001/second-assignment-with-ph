@@ -2,7 +2,7 @@ body{
     font-family:"Inter";
 }
 body p{
-    color: rgb(172, 171, 171);
+    color: #acabab;
 }
 .container{
     width: 75%;
@@ -29,4 +29,16 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+.banner-text h2{
+    text-shadow:  10px 10px 2px #fa035e;
+    animation: bnrt 3s infinite;
+}
+@keyframes bnrt {
+    0% {
+        text-shadow: 5px 5px 2px #fa035e;
+    }
+    100% {
+        text-shadow: -5px -5px 5px #fa035e;
+    }
 }
