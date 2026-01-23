@@ -34,6 +34,9 @@ footer{
     text-shadow:  10px 10px 2px #fa035e;
     animation: bnrt 3s infinite;
 }
+.btnn :hover{
+    transition: 2s;
+}
 @keyframes bnrt {
     0% {
         text-shadow: 5px 5px 2px #fa035e;
