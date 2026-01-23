@@ -1,3 +1,88 @@
+
+@media screen and (max-width:1024px) {
+    .choose-card{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
+    .card{
+        grid-row: span 3;
+        grid-column: span 3;
+    }
+    .last-card{
+        grid-row: span 6;
+        grid-column: span 6;
+    }
+    .host-img {
+	max-width: 500px;
+	width: 450px;
+    }
+    .product-card h2{
+        font-size: 40px;
+    }
+    .product-card p{
+        font-size: 14px;
+    }
+    .br{display: none;}
+}
+
+    /* tablet devise */
+@media screen and (max-width:768px){
+    .menu,
+    .btn-submit{
+        display: none;
+    }
+    
+    .mobile-menu{
+        display: block;
+    }
+
+
+
+    #benner, footer{
+        background-attachment:inherit ;
+    }
+
+    /* about */
+    .leading-8 {
+	line-height:22px;
+    }
+    .br{display: none;}
+    .product{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+    }
+    /* choose */
+    .choose-card{
+        display: flex;
+        flex-direction: column;
+    }
+    /* fecture */
+    .Featured-card{
+        flex-direction: column;
+    }
+    /* host */
+    .host-card{
+        flex-direction: column;
+    }
+     .host-content{
+        text-align: center;
+    }
+    .s-link{
+	justify-content: center;
+    }
+    .host-img{
+        width: 200px;
+    }
+    .card{
+        grid-row: span 3;
+        grid-column: span 3;
+    }
+
+
+}
+
 /* nav */
 @media screen and (max-width:576px) {
     body>section{
@@ -17,7 +102,7 @@
     .mobile-menu{
         display: block;
     }
-/* banner */
+ /* banner */
     #benner, footer{
         background-size: 150% 100%;
         padding: 40px 0;
@@ -37,7 +122,7 @@
         font-size: 14px;
         padding: 5px 15px;
     }
-/* about */
+ /* about */
     .leading-8 {
 	line-height:22px;
     }
@@ -51,7 +136,7 @@
         font-size: 40px;
     }
 
-/* choose */
+ /* choose */
     .choose-card{
         display: flex;
         flex-direction: column;
@@ -60,13 +145,13 @@
     .Featured-card{
         flex-direction: column;
     }
-/* host */
+ /* host */
     .host-card{
         flex-direction: column;
     }
     .host-img{
         width: auto;
-        height: auto;
+        height: 150px;
 
     }
     .host-content{
